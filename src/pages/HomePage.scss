@@ -1,0 +1,357 @@
+// src/pages/Home/Home.scss
+
+.home-page {
+  font-family: 'Poppins', sans-serif;
+}
+
+// ──────────────────────────────────────────────
+// HERO
+// ──────────────────────────────────────────────
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 0 2rem;
+
+  .tagline {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.35rem;
+    max-width: 720px;
+    margin: 0 auto 2.5rem;
+    opacity: 0.92;
+  }
+
+  .btn-primary {
+    background: white;
+    color: #0066ff;
+    padding: 1rem 2.8rem;
+    font-size: 1.18rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.95);
+      transform: translateY(-4px);
+    }
+  }
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+
+  span {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    transition: all 0.3s;
+
+    &.active {
+      background: white;
+      width: 16px;
+    }
+  }
+}
+
+// ──────────────────────────────────────────────
+// SERVICES
+// ──────────────────────────────────────────────
+
+.services {
+  padding: 8rem 0;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 5rem;
+
+  p {
+    color: #0066ff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    color: #111827;
+  }
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2.5rem;
+}
+
+.service-card {
+  background: white;
+  padding: 2.8rem 2.2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  }
+
+  h3 {
+    font-size: 1.65rem;
+    margin-bottom: 1rem;
+    color: #111827;
+  }
+
+  p {
+    color: #4b5563;
+    line-height: 1.75;
+    margin-bottom: 1.8rem;
+  }
+
+  .learn-more {
+    color: #0066ff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #0050d4;
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .services {
+    padding: 5rem 0;
+  }
+}
+
+/* CTA Section – Techor-style dark call-to-action */
+.cta-section {
+  position: relative;
+  background: #0a165e;           /* Deep navy – matches Techor footer/hero */
+  color: white;
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+.cta-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.cta-grid {
+  display: grid;
+  gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .cta-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+  }
+}
+
+.cta-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.cta-desc {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+}
+
+.cta-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-icon {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #60a5fa; /* Light blue accent */
+  flex-shrink: 0;
+}
+
+/* Form Side */
+.cta-form-container {
+  background: white;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.form-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0a165e;
+  margin-bottom: 2rem;
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0a165e;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #f9fafb;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #0066ff;
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.15);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.2rem;
+  background: #0066ff;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #0050d4;
+  transform: translateY(-3px);
+}
+
+.btn-arrow {
+  transition: transform 0.3s ease;
+}
+
+.submit-btn:hover .btn-arrow {
+  transform: translateX(6px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 5rem 0;
+  }
+
+  .cta-title {
+    font-size: 2.5rem;
+  }
+}

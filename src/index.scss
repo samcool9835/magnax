@@ -1,0 +1,338 @@
+@import "tailwindcss";
+
+
+// src/index.scss
+
+// ──────────────────────────────────────────────
+// 1. VARIABLES ─ Techor-inspired color palette & theme
+// ──────────────────────────────────────────────
+
+$primary: #0066ff;                // Main accent blue (buttons, links, active)
+$primary-dark: #0050d4;           // Hover / active state
+$primary-light: #3b82f6;          // Lighter variant
+
+$secondary: #1e40af;              // Darker blue for headers / gradients
+$secondary-dark: #0f172a;         // Almost black navy (headings, dark text)
+
+$accent-purple: #764ba2;          // Used in some gradients
+
+// Neutrals
+$bg-white: #ffffff;
+$bg-light: #f8fafc;               // Light section backgrounds
+$bg-gray: #f1f5f9;
+
+$text-dark: #111827;              // Headings
+$text-body: #4b5563;              // Paragraphs / secondary text
+$text-light: #6b7280;
+$text-white: #ffffff;
+
+// Gradients (common in Techor hero / banners)
+$gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$gradient-primary: linear-gradient(to right, $primary, $primary-light);
+
+// Shadows
+$shadow-card: 0 10px 30px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
+
+// Radius & transitions
+$radius-md: 12px;
+$radius-pill: 9999px;
+
+$transition: 0.3s ease;
+
+// Fonts (Techor often uses Poppins / Inter)
+$font-body: 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+$font-heading: 'Poppins', sans-serif;
+
+// Spacing
+$spacing-md: 1.5rem;
+$spacing-lg: 2.5rem;
+$spacing-xl: 4rem;
+
+// ──────────────────────────────────────────────
+// 2. BASE / GLOBAL STYLES
+// ──────────────────────────────────────────────
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  font-size: 16px;
+  line-height: 1.6;
+  color: $text-body;
+  background: $bg-light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  color: $text-dark;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+// ──────────────────────────────────────────────
+// 3. MAIN LAYOUT / CONTAINER
+// ──────────────────────────────────────────────
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  @media (min-width: 768px) {
+    padding: 0 2rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 3rem;
+  }
+}
+
+// ──────────────────────────────────────────────
+// 4. NAVBAR (basic Techor-style)
+// ──────────────────────────────────────────────
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba($bg-white, 0.96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba($primary, 0.08);
+  box-shadow: $shadow-card;
+  transition: $transition;
+
+  &.scrolled {
+    box-shadow: $shadow-lg;
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: $primary;
+  }
+
+  .menu {
+    display: flex;
+    gap: 2.5rem;
+
+    a {
+      color: $text-body;
+      font-weight: 500;
+      transition: $transition;
+
+      &:hover,
+      &.active {
+        color: $primary;
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    .btn-quote {
+      background: $primary;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: $radius-md;
+      font-weight: 600;
+      transition: $transition;
+
+      &:hover {
+        background: $primary-dark;
+        transform: translateY(-2px);
+      }
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 1.8rem;
+      color: $text-body;
+
+      @media (max-width: 992px) {
+        display: block;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .menu {
+      display: none;
+    }
+  }
+}
+
+// ──────────────────────────────────────────────
+// 5. HERO (Techor-style dark gradient hero)
+// ──────────────────────────────────────────────
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: $gradient-hero;
+  color: $text-white;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.45); // darker overlay
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+
+    .tagline {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: rgba($text-white, 0.85);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 9vw, 5rem);
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.35rem;
+      max-width: 720px;
+      margin: 0 auto 2.5rem;
+      opacity: 0.92;
+    }
+
+    .btn-primary {
+      background: $bg-white;
+      color: $primary;
+      padding: 1.1rem 2.8rem;
+      font-size: 1.18rem;
+      font-weight: 600;
+      border-radius: $radius-pill;
+      box-shadow: $shadow-lg;
+      transition: $transition;
+
+      &:hover {
+        background: rgba($bg-white, 0.95);
+        transform: translateY(-4px);
+        box-shadow: $shadow-card;
+      }
+    }
+  }
+}
+
+// ──────────────────────────────────────────────
+// 6. SERVICES SECTION
+// ──────────────────────────────────────────────
+
+.services {
+  padding: 8rem 0;
+  background: $bg-light;
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 5rem;
+
+    .sub-title {
+      color: $primary;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-size: 3.2rem;
+      margin: 0;
+    }
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 2.5rem;
+
+    .service-card {
+      background: white;
+      padding: 2.8rem 2.2rem;
+      border-radius: $radius-md;
+      box-shadow: $shadow-card;
+      transition: $transition;
+
+      &:hover {
+        transform: translateY(-12px);
+        box-shadow: $shadow-lg;
+      }
+
+      h3 {
+        font-size: 1.65rem;
+        margin-bottom: 1.2rem;
+        color: $text-dark;
+      }
+
+      p {
+        color: $text-body;
+        line-height: 1.75;
+        margin-bottom: 1.8rem;
+      }
+
+      .learn-more {
+        color: $primary;
+        font-weight: 600;
+        transition: $transition;
+
+        &:hover {
+          color: $primary-dark;
+        }
+      }
+    }
+  }
+}
+
+// Add more sections here later...
