@@ -1,0 +1,327 @@
+// Variables
+$brand-primary: #0a165e;
+$brand-secondary: #fcd34d;
+$brand-title: #111827;
+$brand-body: #4b5563;
+$brand-border: #e5e7eb;
+$white: #ffffff;
+
+// Hero Section
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+// Background Pattern
+.hero-pattern {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-pattern-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba($white, 0.95), rgba($white, 0.8), transparent);
+}
+
+// Container
+.hero-container {
+  width: 100%;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 10;
+
+  @media (min-width: 640px) {
+    padding: 0 1.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 0 3rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 5rem;
+  }
+}
+
+// Grid
+.hero-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+// Content
+.hero-content {
+  max-width: 42rem;
+}
+
+// Subtitle
+.hero-subtitle {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: $brand-primary;
+  text-transform: uppercase;
+}
+
+// Title
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: $brand-title;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+  font-family: 'Inter', system-ui, sans-serif;
+
+  @media (min-width: 640px) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 3.75rem;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 4.5rem;
+  }
+
+  .word {
+    display: inline-block;
+    margin-right: 0.3em;
+  }
+}
+
+// Description
+.hero-description {
+  font-size: 1.125rem;
+  color: $brand-body;
+  line-height: 1.7;
+  margin-top: 1.5rem;
+  max-width: 36rem;
+}
+
+// CTA Buttons
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.875rem 1.75rem;
+  background: $brand-primary;
+  color: $white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: darken($brand-primary, 10%);
+    transform: translateY(-2px);
+  }
+
+  .btn-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover .btn-icon {
+    transform: translateX(4px);
+  }
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.875rem 1.75rem;
+  background: transparent;
+  color: $brand-title;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border: 2px solid $brand-border;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $brand-primary;
+    color: $brand-primary;
+  }
+
+  .btn-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
+  }
+}
+
+// Stats
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid $brand-border;
+}
+
+.hero-stat {
+  &-number {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: $brand-primary;
+    font-family: 'Inter', system-ui, sans-serif;
+
+    @media (min-width: 640px) {
+      font-size: 2.25rem;
+    }
+  }
+
+  &-label {
+    font-size: 0.875rem;
+    color: $brand-body;
+    margin-top: 0.25rem;
+  }
+}
+
+// Hero Image
+.hero-image-wrapper {
+  display: none;
+  position: relative;
+  perspective: 1000px;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.hero-image-container {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.hero-image-box {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-image-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba($brand-primary, 0.2), transparent);
+}
+
+// Floating Badge
+.hero-badge {
+  position: absolute;
+  bottom: -1.5rem;
+  left: -1.5rem;
+  background: $white;
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-badge-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero-badge-icon {
+  width: 3rem;
+  height: 3rem;
+  background: rgba($brand-secondary, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: $brand-secondary;
+    font-size: 1.5rem;
+  }
+}
+
+.hero-badge-title {
+  font-weight: 700;
+  color: $brand-title;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.hero-badge-text {
+  font-size: 0.875rem;
+  color: $brand-body;
+}
+
+// Decorative Elements
+.hero-decor {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(20px);
+}
+
+.hero-decor-1 {
+  top: -1rem;
+  right: -1rem;
+  width: 6rem;
+  height: 6rem;
+  background: rgba($brand-secondary, 0.1);
+}
+
+.hero-decor-2 {
+  bottom: -2rem;
+  right: -2rem;
+  width: 8rem;
+  height: 8rem;
+  background: rgba($brand-primary, 0.1);
+  filter: blur(30px);
+}
+
+// Bottom Fade
+.hero-bottom-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8rem;
+  background: linear-gradient(to top, $white, transparent);
+  z-index: 10;
+}
