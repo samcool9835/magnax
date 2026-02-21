@@ -1,0 +1,145 @@
+.faq-section {
+  padding: 8rem 0;
+  background: white;
+}
+
+.faq-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.faq-grid {
+  display: grid;
+  gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .faq-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+}
+
+.faq-header {
+  @media (min-width: 1024px) {
+    position: sticky;
+    top: 8rem;
+    align-self: start;
+  }
+}
+
+.section-subtitle {
+  color: #0066ff;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 3.2rem;
+  color: #111827;
+  margin-top: 1rem;
+}
+
+.faq-desc {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+  margin-top: 1.5rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  color: #0066ff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #0050d4;
+}
+
+.link-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+.contact-link:hover .link-icon {
+  transform: translateX(0.25rem);
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item.open {
+  border-color: #0066ff;
+  background: rgba(0, 102, 255, 0.03);
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-question span {
+  font-weight: 700;
+  color: #111827;
+  font-size: 1.125rem;
+}
+
+.faq-toggle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  background: rgba(0, 102, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0066ff;
+  transition: all 0.3s ease;
+}
+
+.faq-item.open .faq-toggle {
+  background: #0066ff;
+  color: white;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 1.5rem;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 20rem;
+  padding-bottom: 1.5rem;
+}
+
+.faq-answer p {
+  color: #4b5563;
+  line-height: 1.75;
+}
