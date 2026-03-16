@@ -335,7 +335,7 @@ export function BackendTechnologies() {
       </section>
 
       {/* Projects Section – fixed crash here */}
-      <section className="be-projects">
+      {/* <section className="be-projects">
         <div className="be-container">
           <div className="be-section-header">
             <span className="be-section-label">Case Studies</span>
@@ -374,7 +374,7 @@ export function BackendTechnologies() {
             )) || <div className="no-projects">No projects available</div>}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Architecture Section – static for now, can be made dynamic later */}
       <section className="be-architecture">

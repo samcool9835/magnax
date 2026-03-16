@@ -338,7 +338,7 @@ export function CloudDevOpsTechnologies() {
       </section>
 
       {/* Projects Section */}
-      <section className="cd-projects">
+      {/* <section className="cd-projects">
         <div className="cd-container">
           <div className="cd-section-header">
             <span className="cd-section-label">Case Studies</span>
@@ -377,7 +377,7 @@ export function CloudDevOpsTechnologies() {
             )) || <div className="no-projects">No projects available</div>}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Lifecycle Section – FIXED */}
       <section className="cd-lifecycle">

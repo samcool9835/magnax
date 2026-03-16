@@ -370,7 +370,7 @@ export function MobileTechnologies() {
       </section>
 
       {/* Projects Section – dynamic */}
-      <section className="mo-projects">
+      {/* <section className="mo-projects">
         <div className="mo-container">
           <div className="mo-section-header">
             <span className="mo-section-label">Case Studies</span>
@@ -405,7 +405,7 @@ export function MobileTechnologies() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Process Section – dynamic */}
       <section className="mo-process">

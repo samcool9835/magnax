@@ -396,7 +396,7 @@ export function FrontendTechnologies() {
       </section>
 
       {/* Projects Section */}
-      <section className="fe-projects">
+      {/* <section className="fe-projects">
         <div className="fe-container">
           <div className="fe-section-header">
             <span className="fe-section-label">Case Studies</span>
@@ -431,7 +431,7 @@ export function FrontendTechnologies() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Choose Us */}
       <section className="fe-why">

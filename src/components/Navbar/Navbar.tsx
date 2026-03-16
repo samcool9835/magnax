@@ -34,21 +34,21 @@ const NAV_ITEMS: NavItem[] = [
           { label: "Sustainability Policy", path: "/approach#sustainability" },
         ]
       },
-      {
-        title: "Recognition",
-        items: [
-          { label: "Testimonials", path: "/recognition" },
-          { label: "Awards", path: "/recognition#awards" },
-        ]
-      },
-      {
-        title: "Join Us",
-        items: [
-          { label: "Careers", path: "/join-us" },
-          { label: "How We Hire", path: "/join-us#how-we-hire" },
-          { label: "Referral Program", path: "/join-us#referral" },
-        ]
-      }
+      // {
+      //   title: "Recognition",
+      //   items: [
+      //     { label: "Testimonials", path: "/recognition" },
+      //     { label: "Awards", path: "/recognition#awards" },
+      //   ]
+      // },
+      // {
+      //   title: "Join Us",
+      //   items: [
+      //     { label: "Careers", path: "/join-us" },
+      //     { label: "How We Hire", path: "/join-us#how-we-hire" },
+      //     { label: "Referral Program", path: "/join-us#referral" },
+      //   ]
+      // }
     ]
   },
   {

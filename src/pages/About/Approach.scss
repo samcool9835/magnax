@@ -42,7 +42,7 @@ $black: #000000;
 .approach-container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 // Buttons
@@ -110,7 +110,7 @@ $black: #000000;
 // Hero Section - Unique Circular Navigation
 .approach-hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   @include flex-center;
   padding: 120px 0 80px;
   @include gradient-bg;
@@ -598,7 +598,7 @@ $black: #000000;
 
 // Section Base
 .approach-section {
-  padding: 120px 0;
+  padding: 60px 0;
   position: relative;
 
   &-alt {
@@ -1113,7 +1113,7 @@ $black: #000000;
 
 // CTA Section
 .approach-cta {
-  padding: 120px 0;
+  padding: 60px 0;
   background: $white;
   position: relative;
 }

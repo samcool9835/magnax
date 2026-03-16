@@ -308,7 +308,7 @@ export function Company() {
   </div>
 
 </div>
-          </div>
+
         </section>
 
         {/* Mission */}

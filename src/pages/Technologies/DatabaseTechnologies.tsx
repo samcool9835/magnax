@@ -329,7 +329,7 @@ export function DatabaseTechnologies() {
       </section>
 
       {/* Projects Section */}
-      <section className="db-projects">
+      {/* <section className="db-projects">
         <div className="db-container">
           <div className="db-section-header">
             <span className="db-section-label">Case Studies</span>
@@ -368,7 +368,7 @@ export function DatabaseTechnologies() {
             )) || <div className="no-projects">No projects available</div>}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Architecture Section */}
       <section className="db-architecture">
