@@ -18,7 +18,7 @@ import {
   Lock,
   Sparkles,
   Play,
-  Star,
+  // Star,
   Terminal,
   HardDrive,
   Cpu,

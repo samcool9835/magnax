@@ -7,14 +7,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import {
   ArrowRight,
   Building2,
-  Wallet,
-  HeartPulse,
+  // Wallet,
+  // HeartPulse,
   Users,
-  Gamepad2,
-  Smartphone,
+  // Gamepad2,
+  // Smartphone,
   CheckCircle2,
-  ExternalLink,
-  Filter,
+  // ExternalLink,
+  // Filter,
   Sparkles,
   Briefcase,
   TrendingUp,
@@ -30,7 +30,7 @@ import {
   Lightbulb,
   RefreshCw,
   Cpu,
-  Layers,
+  // Layers,
 } from 'lucide-react';
 
 import { getApproachData } from '../../service/api';

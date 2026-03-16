@@ -18,7 +18,7 @@ import {
   Camera,
   Sparkles,
   Play,
-  Star,
+  // Star,
   Box,
   Cpu,
 } from 'lucide-react';

@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 
 import { getIndustryPageData } from '../../service/api/pages/industry';
-import type { IndustryPageData, FloatingIcon } from '../../types';
+import type { IndustryPageData} from '../../types';
 
 import './IndustryPage.scss';
 

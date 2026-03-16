@@ -16,10 +16,10 @@ import {
   Monitor,
   Scale,
   RefreshCw,
-  Code,
+  // Code,
   Sparkles,
   Play,
-  Star,
+  // Star,
   Terminal,
   Cpu,
 } from 'lucide-react';
@@ -179,20 +179,20 @@ export function CloudDevOpsTechnologies() {
   } as const;
 
   // ─── Lifecycle icons map & helper ──────────────────────────────────────
-  const lifecycleIconMap = {
-    Code,
-    GitBranch,
-    Container,
-    Shield,
-    Server,
-    Monitor,
-    // Add any others from your JSON lifecycleSteps
-  } as const;
+  // const lifecycleIconMap = {
+  //   Code,
+  //   GitBranch,
+  //   Container,
+  //   Shield,
+  //   Server,
+  //   Monitor,
+  //   // Add any others from your JSON lifecycleSteps
+  // } as const;
 
-  const getLifecycleIcon = (iconName: string) => {
-    const IconComponent = lifecycleIconMap[iconName as keyof typeof lifecycleIconMap];
-    return IconComponent ? <IconComponent size={24} /> : <Cloud size={24} />;
-  };
+  // const getLifecycleIcon = (iconName: string) => {
+  //   const IconComponent = lifecycleIconMap[iconName as keyof typeof lifecycleIconMap];
+  //   return IconComponent ? <IconComponent size={24} /> : <Cloud size={24} />;
+  // };
 
   return (
     <div className="cd-page">

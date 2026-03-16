@@ -22,7 +22,7 @@ import {
   Layers,
   Sparkles,
   Play,
-  Star,
+  // Star,
 } from 'lucide-react';
 
 import { getFrontendTechnologiesData } from '../../service/api/pages/technologies/technologies';

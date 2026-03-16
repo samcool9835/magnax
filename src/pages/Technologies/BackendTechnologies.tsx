@@ -21,7 +21,7 @@ import {
   GitBranch,
   Sparkles,
   Play,
-  Star,
+  // Star,
 } from 'lucide-react';
 
 import { getBackendTechnologiesData } from '../../service/api/pages/technologies/technologies'; // ← use alias @/ if configured
