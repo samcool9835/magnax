@@ -305,7 +305,6 @@ export function SoftwareDevelopment() {
                 </div>
                 <h3 className="sd-feature-title">{feature.title}</h3>
                 <p className="sd-feature-description">{feature.description}</p>
-                <p className="sd-feature-description2">{feature.description2}</p>
                 <div className="sd-feature-line" />
               </div>
             )) || <div>No custom software features available</div>}
@@ -334,7 +333,6 @@ export function SoftwareDevelopment() {
                 </div>
                 <h3 className="sd-feature-title">{feature.title}</h3>
                 <p className="sd-feature-description">{feature.description}</p>
-                <p className="sd-feature-description2">{feature.description2}</p>
                 <div className="sd-feature-line" />
               </div>
             )) || <div>No MVP features available</div>}
@@ -379,7 +377,7 @@ export function SoftwareDevelopment() {
               From MVPs to enterprise solutions, we've got you covered.
             </p>
             <div className="sd-cta-buttons">
-              <a href="#contact" className="sd-btn sd-btn-primary sd-btn-lg">
+              <a href="/contact" className="sd-btn sd-btn-primary sd-btn-lg">
                 Schedule a Consultation
                 <ArrowRight className="sd-btn-icon" />
               </a>

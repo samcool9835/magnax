@@ -238,7 +238,7 @@ export function BackendTechnologies() {
             </p>
 
             <div className="be-hero-cta">
-              <a href="#contact" className="be-btn be-btn-primary">
+              <a href="/contact" className="be-btn be-btn-primary">
                 Discuss Your Architecture
                 <ArrowRight className="be-btn-icon" />
               </a>
@@ -483,7 +483,7 @@ export function BackendTechnologies() {
               and grows with your business
             </p>
             <div className="be-cta-buttons">
-              <a href="#contact" className="be-btn be-btn-primary be-btn-lg">
+              <a href="/contact" className="be-btn be-btn-primary be-btn-lg">
                 Start Your Project
                 <ArrowRight className="be-btn-icon" />
               </a>

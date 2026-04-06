@@ -1,10 +1,10 @@
 {
   "heroDescription": "Create stunning digital experiences that engage users across every device. From responsive websites to native mobile apps, we build solutions that drive results and delight your customers.",
   "stats": [
-    { "value": "500+", "label": "Projects Delivered" },
-    { "value": "50M+", "label": "App Downloads" },
+    { "value": "20+", "label": "Projects Delivered" },
+    { "value": "98%", "label": "client Satisfaction" },
     { "value": "4.8★", "label": "Avg Rating" },
-    { "value": "8+", "label": "Years Experience" }
+    { "value": "4+", "label": "Years Experience" }
   ],
   "webTechStack": [
     { "name": "React", "category": "Frontend" },
@@ -30,52 +30,44 @@
     {
       "icon": "Monitor",
       "title": "Responsive Web Design",
-      "description": "Pixel-perfect websites that look stunning on every device, from mobile to desktop.",
-      "description2": "Built with modern frameworks like React and Next.js for dynamic, interactive experiences."
+      "description": "Pixel-perfect websites that look stunning on every device, from mobile to desktop.Built with modern frameworks like React and Next.js for dynamic, interactive experiences."
     },
     {
       "icon": "Zap",
       "title": "Performance Optimization",
-      "description": "Lightning-fast load times with optimized code, caching, and CDN delivery.",
-      "description2": "We leverage modern build tools and optimization techniques to ensure your web applications are as fast as possible."
+      "description": "Lightning-fast load times with optimized code, caching, and CDN delivery.We leverage modern build tools and optimization techniques to ensure your web applications are as fast as possible."
     },
     {
       "icon": "Shield",
       "title": "Secure Architecture",
-      "description": "Enterprise-grade security with HTTPS, authentication, and data protection.",
-      "description2": "Our web applications are built with security best practices to protect your data and users."
+      "description": "Enterprise-grade security with HTTPS, authentication, and data protection.Our web applications are built with security best practices to protect your data and users."
     },
     {
       "icon": "Palette",
       "title": "UI/UX Excellence",
-      "description": "Intuitive interfaces designed for conversion and user satisfaction.",
-      "description2": "Our design team creates beautiful, functional interfaces that delight users and drive engagement."
+      "description": "Intuitive interfaces designed for conversion and user satisfaction.Our design team creates beautiful, functional interfaces that delight users and drive engagement."
     }
   ],
   "mobileFeatures": [
     {
       "icon": "Smartphone",
       "title": "Native iOS & Android",
-      "description": "Platform-specific apps built with Swift and Kotlin for optimal performance.",
-      "description2": "We build apps that feel native to each platform, ensuring the best user experience."
+      "description": "Platform-specific apps built with Swift and Kotlin for optimal performance.We build apps that feel native to each platform, ensuring the best user experience."
     },
     {
       "icon": "Tablet",
       "title": "Cross-Platform Solutions",
-      "description": "Single codebase for iOS and Android with React Native or Flutter.",
-      "description2": "We build apps that work seamlessly across multiple platforms, saving time and resources."
+      "description": "Single codebase for iOS and Android with React Native or Flutter.We build apps that work seamlessly across multiple platforms, saving time and resources."
     },
     {
       "icon": "Wifi",
       "title": "Offline Functionality",
-      "description": "Apps that work without internet connection with smart sync capabilities.",
-      "description2": "Our apps are designed to function offline, with intelligent sync capabilities that ensure data integrity."
+      "description": "Apps that work without internet connection with smart sync capabilities.Our apps are designed to function offline, with intelligent sync capabilities that ensure data integrity."
     },
     {
       "icon": "Layers",
       "title": "Seamless Integration",
-      "description": "Deep integration with device features: camera, GPS, push notifications, and more.",
-      "description2": "Our mobile apps integrate seamlessly with native device features to provide a richer user experience."
+      "description": "Deep integration with device features: camera, GPS, push notifications, and more."
     }
   ],
   "testimonials": [

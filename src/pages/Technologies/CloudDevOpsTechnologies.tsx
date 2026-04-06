@@ -237,7 +237,7 @@ export function CloudDevOpsTechnologies() {
             </p>
 
             <div className="cd-hero-cta">
-              <a href="#contact" className="cd-btn cd-btn-primary">
+              <a href="/contact" className="cd-btn cd-btn-primary">
                 Cloud Assessment
                 <ArrowRight className="cd-btn-icon" />
               </a>
@@ -441,7 +441,7 @@ export function CloudDevOpsTechnologies() {
               Get a free cloud assessment and roadmap for your infrastructure transformation
             </p>
             <div className="cd-cta-buttons">
-              <a href="#contact" className="cd-btn cd-btn-primary cd-btn-lg">
+              <a href="/contact" className="cd-btn cd-btn-primary cd-btn-lg">
                 Schedule Assessment
                 <ArrowRight className="cd-btn-icon" />
               </a>

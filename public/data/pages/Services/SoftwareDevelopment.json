@@ -13,52 +13,44 @@
   "softwareFeatures": [
     {
       "title": "Custom Software Development",
-      "description": "Custom-built solutions that fit your business operations and business processes",
-      "description2": "We build software that accelerates your business, from idea to launch.",
+      "description": "Custom-built solutions that fit your business operations and business processes.We build software that accelerates your business, from idea to launch.",
       "icon": "Code2"
     },
     {
       "title": "Enterprise Solutions",
-      "description": "Scalable, secure, and powerful applications for large enterprises.",
-      "description2": "Enterprise-ready applications that run on enterprise-grade security.",
-        "icon": "Shield"
+      "description": "Scalable, secure, and powerful applications for large enterprises.Enterprise-ready applications that run on enterprise-grade security.",
+      "icon": "Shield"
     },
     {
       "title": "System Integration",
-      "description": "Integrate legacy systems with new APIs and microservices architecture.",
-      "description2": "We make all systems talk to each other.",
-        "icon": "Zap"
+      "description": "Integrate legacy systems with new APIs and microservices architecture.We make all systems talk to each other.",
+      "icon": "Zap"
     },
     {
       "title": "Legacy Modernization",
-      "description": "Modernize legacy systems with cloud-native, microservices applications seamlessly.",
-      "description2": "Upgrade your legacy systems without losing the business value.",
+      "description": "Modernize legacy systems with cloud-native, microservices applications seamlessly.pgrade your legacy systems without losing the business value.",
       "icon": "LineChart"
     }
   ],
   "mvpFeatures": [
     {
       "title": "Rapid Prototyping",
-      "description": "Click through prototype in weeks, not months. Validate your ideas.",
-      "description2": "We rapidly develop working prototypes that validate and test your ideas.",
-         "icon": "Rocket"
+      "description": "Click through prototype in weeks, not months. Validate your ideas.We rapidly develop working prototypes that validate and test your ideas.",
+      "icon": "Rocket"
     },
     {
       "title": "User-Centric Design",
-      "description": "Development from day 1 meant for user testing and iterations",
-      "description2": "We strive for an experience that your product MVP is centered around users.",
+      "description": "Development from day 1 meant for user testing and iterations.We strive for an experience that your product MVP is centered around users.",
       "icon": "Users"
     },
     {
       "title": "Speed to Market",
-      "description": "MVP in 4-8 weeks, lose no time to market, we help you win the market share.",
-      "description2": "Fast and agile development techniques help us deliver quicker than the competition.",
+      "description": "MVP in 4-8 weeks, lose no time to market, we help you win the market share.Fast and agile development techniques help us deliver quicker than the competition.",
       "icon": "Zap"
     },
     {
       "title": "Scalable Architecture",
-      "description": "Your MVP should start small and grow from there. We help you build an MVP that can handle millions of users.",
-      "description2": "We understand the needs of building MVPs that can grow with no limits.",
+      "description": "Your MVP should start small and grow from there. We help you build an MVP that can handle millions of users.We understand the needs of building MVPs that can grow with no limits.",
       "icon": "LineChart"
     }
   ],
@@ -83,10 +75,10 @@
     }
   ],
   "stats": [
-    { "value": "200+", "label": "Projects Delivered" },
+    { "value": "30+", "label": "Projects Delivered" },
     { "value": "50+", "label": "MVPs Launched" },
     { "value": "98%", "label": "Client Satisfaction" },
-    { "value": "6+", "label": "Years Experience" }
+    { "value": "4+", "label": "Years Experience" }
   ],
   "floatingIcons": [
     { "iconName": "Code2", "delay": "0s", "duration": "6s", "pos": { "top": "10%", "left": "5%" } },

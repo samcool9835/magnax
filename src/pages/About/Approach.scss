@@ -112,7 +112,7 @@ $black: #000000;
   position: relative;
   min-height: 90vh;
   @include flex-center;
-  padding: 120px 0 80px;
+  padding: 60px;
   @include gradient-bg;
   overflow: hidden;
 }

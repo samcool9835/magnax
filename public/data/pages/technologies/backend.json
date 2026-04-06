@@ -25,7 +25,7 @@
     "category": "Runtime",
     "description": "High-performance, event-driven JavaScript runtime for scalable network applications.",
     "features": ["Express.js", "NestJS", "Socket.io", "GraphQL"],
-    "icon": "/images/tech/nodejs.svg"
+    "icon": "/images/tech/nodedotjs.svg"
   },
   {
     "name": "Go",
@@ -126,10 +126,10 @@
 ],
 
  "stats": [
-  { "value": "10M+", "label": "API Requests/Day" },
+  { "value": "1M+", "label": "API Requests/Day" },
   { "value": "99.99%", "label": "Uptime SLA" },
   { "value": "50ms", "label": "Avg Response" },
-  { "value": "5+", "label": "Years Experience"  }
+  { "value": "4+", "label": "Years Experience"  }
 ],
 
  "faqs": [

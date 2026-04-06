@@ -324,7 +324,6 @@ export function ITConsultingDigital() {
                 </div>
                 <h3 className="icd-feature-title">{feature.title}</h3>
                 <p className="icd-feature-description">{feature.description}</p>
-                <p className="icd-feature-description2">{feature.description2}</p>
                 <div className="icd-feature-line" />
               </div>
             )) || <div>No consulting features available</div>}
@@ -376,7 +375,6 @@ export function ITConsultingDigital() {
                 </div>
                 <h3 className="icd-feature-title">{feature.title}</h3>
                 <p className="icd-feature-description">{feature.description}</p>
-                <p className="icd-feature-description2">{feature.description2}</p>
                 <div className="icd-feature-line" />
               </div>
             )) || <div>No transformation features available</div>}
@@ -456,8 +454,8 @@ export function ITConsultingDigital() {
                 "can unlock new opportunities for your organization."}
             </p>
             <div className="icd-cta-buttons">
-              <a href="#contact" className="icd-btn icd-btn-primary icd-btn-lg">
-                Schedule Strategy Session
+              <a href="/contact" className="icd-btn icd-btn-primary icd-btn-lg">
+                Schedule a Consultation
                 <ArrowRight className="icd-btn-icon" />
               </a>
               <a href="tel:+918123660270" className="icd-btn icd-btn-outline">

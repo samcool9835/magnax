@@ -26,7 +26,7 @@
       "category": "Cross-Platform",
       "description": "Build native apps using React. Share code between iOS and Android while maintaining native performance.",
       "features": ["Native Modules", "Expo", "Hermes Engine", "Code Push"],
-      "icon": "/images/tech/react-native.svg"
+      "icon": "/images/tech/react.svg"
     },
     {
       "name": "Xamarin",
@@ -99,10 +99,10 @@
     }
   ],
   "stats": [
-    { "value": "50M+", "label": "App Downloads" },
+    { "value": "1M+", "label": "App Downloads" },
     { "value": "4.8★", "label": "Avg Rating" },
-    { "value": "100+", "label": "Apps Shipped" },
-    { "value": "5+", "label": "Years Experience" }
+    { "value": "10+", "label": "Apps Shipped" },
+    { "value": "4+", "label": "Years Experience" }
   ],
   "floatingIcons": [
     { "iconName": "Smartphone", "delay": "0s", "duration": "6s", "pos": { "top": "10%", "left": "5%" } },

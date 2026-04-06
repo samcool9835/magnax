@@ -20,26 +20,22 @@
     {
       "icon": "Code",
       "title": "RESTful Architecture",
-      "description": "Clean, resource-oriented API design following industry best practices and standards.",
-      "description2": "Proper HTTP methods, status codes, and HATEOAS for intuitive developer experience."
+      "description": "Clean, resource-oriented API design following industry best practices and standards. Proper HTTP methods, status codes, and HATEOAS for intuitive developer experience."
     },
     {
       "icon": "FileJson",
       "title": "GraphQL APIs",
-      "description": "Flexible query languages that let clients request exactly the data they need.",
-      "description2": "Single endpoint efficiency with powerful type systems and real-time subscriptions."
+      "description": "Flexible query languages that let clients request exactly the data they need. Single endpoint efficiency with powerful type systems and real-time subscriptions."
     },
     {
       "icon": "Shield",
       "title": "API Security",
-      "description": "Enterprise-grade authentication and authorization with OAuth 2.0, JWT, and API keys.",
-      "description2": "Rate limiting, CORS policies, input validation, and encryption for complete protection."
+      "description": "Enterprise-grade authentication and authorization with OAuth 2.0, JWT, and API keys. Rate limiting, CORS policies, input validation, and encryption for complete protection."
     },
     {
       "icon": "Zap",
       "title": "Performance & Caching",
-      "description": "Lightning-fast responses with intelligent caching strategies and CDN integration.",
-      "description2": "Redis caching, ETags, and connection pooling for optimal throughput under load."
+      "description": "Lightning-fast responses with intelligent caching strategies and CDN integration. Redis caching, ETags, and connection pooling for optimal throughput under load."
     }
   ],
   "testimonials": [

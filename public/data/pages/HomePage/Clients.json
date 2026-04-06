@@ -3,12 +3,14 @@
   "title": "Trusted by Industry Leaders",
   "description": "We've been building for millions of people since 2022. We build trustworthy secure and adaptable digital solutions, designed to solve today's problems and empower whatever future we create tomorrow",
   "clients": [
-    { "name": "Riyad Bank", "logo": "/images/riyad-bank.jpeg" },
-    { "name": "Western Union", "logo": "/images/western-union.png" },
-    { "name": "DataSync", "logo": "/images/data-sync.png" },
-    { "name": "CloudNine", "logo": "/images/cloud-nine.png" },
-    { "name": "NexGen", "logo": "/images/nex-gen.png" },
-    { "name": "PulseAI", "logo": "/images/pulse-ai.png" },
-    { "name": "Vertex Labs", "logo": "/images/vertex-labs.png" }
+    { "name": "Riyad Bank", "logo": "/images/clients/riyad-bank.jpeg" },
+    { "name": "Western Union", "logo": "/images/clients/western-union.png" },
+    { "name": "Alfa", "logo": "/images/clients/alfa.jpg" },
+    { "name": "Splitsie", "logo": "/images/clients/splitsie.jpeg" },
+    { "name": "banField", "logo": "/images/clients/banField.jpeg" },
+    { "name": "Bricks & Bolts", "logo": "/images/clients/bbLogo.jpeg" },
+    { "name": "Globaledge", "logo": "/images/clients/globaledge.jpg" },
+    { "name": " GMIC", "logo": "/images/clients/gmic.jpeg" },
+    { "name": "kbombay", "logo": "/images/clients/kbombay.png" }
   ]
 }

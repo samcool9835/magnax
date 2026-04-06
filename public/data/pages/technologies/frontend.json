@@ -13,7 +13,7 @@
       "category": "Framework",
       "description": "Progressive framework for building user interfaces. Approachable, versatile, and performant.",
       "features": ["Reactive Data", "Component System", "Single File", "Gentle Learning"],
-      "icon": "/images/tech/vue.svg",
+      "icon": "/images/tech/vuedotjs.svg",
       "gradient": "from-[#2b4dff] to-[#0a165e]"
     },
     {
@@ -112,30 +112,27 @@
 
   "testimonials": [
     {
-      "quote": "Their React expertise transformed our legacy application into a modern, blazing-fast platform.",
-      "author": "Michael Chen",
-      "role": "CTO, RetailMax",
-      "image": "/images/testimonials/michael.jpg"
+      "quote": "We are really impressed with the Da Riff team's dedication and responsiveness. Da Riff is a much valued vendor/partner, who go out of their way to meet deadlines and provide solutions. The culture of innovation, positivity, and commitment to the task at hand at Da Riff is well admired. Da Riff completed quality projects on time. We look forward to a long and fruitful relationship.",
+      "role": "CTO, Bricks&Bolts",
+      "image": "/images/clients/bbLogo.jpeg"
     },
     {
-      "quote": "The Vue.js implementation was flawless. Our users love the smooth, responsive interface.",
-      "author": "Sarah Williams",
-      "role": "Product Lead, DataCorp",
-      "image": "/images/testimonials/sarah.jpg"
+      "quote": "We would like to express our satisfaction on the cooperation regarding the development of our web application. Da Riff and the development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. We would like to recommend Da Riff and the development team. We look forward to working with them in future projects.",
+      "role": "Founder, Matkaplay",
+      "image": "/images/clients/matkaplay.png"
     },
     {
-      "quote": "TypeScript adoption reduced our bugs by 70%. The code quality is now enterprise-grade.",
-      "author": "David Park",
-      "role": "Engineering Manager, CloudTech",
-      "image": "/images/testimonials/david.jpg"
+      "quote": "Working with Da Riff was a pleasure. They were enthusiastic, fast to offer comments, and quick to make changes. As a client I felt very comfortable that the work would get done within the determined planning. I would highly suggest them and hope to work with them again in the future.",
+      "role": "CTO, Alfa Carz",
+      "image": "/images/clients/alfa.jpg"
     }
   ],
 
   "stats": [
-    { "value": "150+", "label": "Projects Delivered" },
-    { "value": "50+", "label": "Frontend Experts" },
+    { "value": "20+", "label": "Projects Delivered" },
+    { "value": "10+", "label": "Frontend Experts" },
     { "value": "99%", "label": "Client Satisfaction" },
-    { "value": "5+", "label": "Years Experience" }
+    { "value": "4+", "label": "Years Experience" }
   ],
 
   "floatingIcons": [

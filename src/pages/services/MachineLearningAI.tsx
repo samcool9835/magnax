@@ -239,7 +239,7 @@ export function MachineLearningAI() {
   return (
     <div className="ml-page">
       {/* --- Hero Section --- */}
-      <section ref={heroRef} className="ml-hero">
+      <section id="machine-learning" ref={heroRef} className="ml-hero">
         <div className="ml-hero-bg">
           <div className="ml-neural-network">
              {/* Neural network nodes and connections */}
@@ -335,7 +335,7 @@ export function MachineLearningAI() {
       </section>
 
       {/* --- Machine Learning Section --- */}
-      <section id="machine-learning" className="ml-service ml-service-ml">
+      <section  className="ml-service ml-service-ml">
         <div className="ml-container">
           <div className="ml-section-header">
             <div className="ml-service-badge ml-service-badge-ml">
@@ -456,8 +456,8 @@ export function MachineLearningAI() {
               Let's build AI systems that transform your data into competitive advantage.
             </p>
             <div className="ml-cta-buttons">
-              <a href="#contact" className="ml-btn ml-btn-primary ml-btn-lg">
-                Start Your AI Journey
+              <a href="/contact" className="ml-btn ml-btn-primary ml-btn-lg">
+                Schedule a Consultation
                 <ArrowRight className="ml-btn-icon" />
               </a>
               <a href="tel:+918123660270" className="ml-btn ml-btn-outline">

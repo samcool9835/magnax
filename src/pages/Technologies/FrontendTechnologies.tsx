@@ -298,7 +298,7 @@ export function FrontendTechnologies() {
             </p>
 
             <div className="fe-hero-cta">
-              <a href="#contact" className="fe-btn fe-btn-primary">
+              <a href="/contact" className="fe-btn fe-btn-primary">
                 Start Your Project
                 <ArrowRight className="fe-btn-icon" />
               </a>
@@ -524,7 +524,7 @@ export const App = () => {
               Let's discuss how our frontend expertise can bring your vision to life
             </p>
             <div className="fe-cta-buttons">
-              <a href="#contact" className="fe-btn fe-btn-primary fe-btn-lg">
+              <a href="/contact" className="fe-btn fe-btn-primary fe-btn-lg">
                 Get Started
                 <ArrowRight className="fe-btn-icon" />
               </a>

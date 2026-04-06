@@ -107,10 +107,10 @@
     }
   ],
   "stats": [
-    { "value": "50+", "label": "Projects Delivered" },
+    { "value": "20+", "label": "Projects Delivered" },
     { "value": "15+", "label": "Industries Served" },
     { "value": "98%", "label": "Client Satisfaction" },
-    { "value": "10+", "label": "Countries Reached" }
+    { "value": "4+", "label": "Countries Reached" }
   ],
   "floatingIcons": [
     { "iconName": "Briefcase", "delay": "0s", "duration": "6s", "pos": { "top": "10%", "left": "5%" } },

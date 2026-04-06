@@ -310,7 +310,6 @@ export function AgileDevOpsConsulting() {
                 </div>
                 <h3 className="ad-feature-title">{feature.title}</h3>
                 <p className="ad-feature-description">{feature.description}</p>
-                <p className="ad-feature-description2">{feature.description2}</p>
                 <div className="ad-feature-line" />
               </div>
             )) || <div>No agile features available</div>}
@@ -362,7 +361,6 @@ export function AgileDevOpsConsulting() {
                 </div>
                 <h3 className="ad-feature-title">{feature.title}</h3>
                 <p className="ad-feature-description">{feature.description}</p>
-                <p className="ad-feature-description2">{feature.description2}</p>
                 <div className="ad-feature-line" />
               </div>
             )) || <div>No DevOps features available</div>}
@@ -408,8 +406,8 @@ export function AgileDevOpsConsulting() {
                 "your software delivery capabilities."}
             </p>
             <div className="ad-cta-buttons">
-              <a href="#contact" className="ad-btn ad-btn-primary ad-btn-lg">
-                Book Free Assessment
+              <a href="/contact" className="ad-btn ad-btn-primary ad-btn-lg">
+                Schedule a Consultation
                 <ArrowRight className="ad-btn-icon" />
               </a>
               <a href="tel:+918123660270" className="ad-btn ad-btn-outline">

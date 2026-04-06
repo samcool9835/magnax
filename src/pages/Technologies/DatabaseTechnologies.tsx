@@ -228,7 +228,7 @@ export function DatabaseTechnologies() {
             </p>
 
             <div className="db-hero-cta">
-              <a href="#contact" className="db-btn db-btn-primary">
+              <a href="/contact" className="db-btn db-btn-primary">
                 Database Assessment
                 <ArrowRight className="db-btn-icon" />
               </a>
@@ -481,7 +481,7 @@ export function DatabaseTechnologies() {
               from our certified experts
             </p>
             <div className="db-cta-buttons">
-              <a href="#contact" className="db-btn db-btn-primary db-btn-lg">
+              <a href="/contact" className="db-btn db-btn-primary db-btn-lg">
                 Schedule Assessment
                 <ArrowRight className="db-btn-icon" />
               </a>

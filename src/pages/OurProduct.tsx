@@ -580,7 +580,7 @@ export function OurProduct() {
               to streamline their educational management.
             </p>
             <div className="drems-cta-buttons">
-              <a href="#contact" className="drems-btn drems-btn-primary drems-btn-lg">
+              <a href="/contact" className="drems-btn drems-btn-primary drems-btn-lg">
                 Schedule Demo
                 <ArrowRight className="drems-btn-icon" />
               </a>

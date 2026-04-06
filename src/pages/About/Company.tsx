@@ -421,14 +421,14 @@ export function Company() {
                   <div className="company-team-icon">
                     <Award size={32} />
                   </div>
-                  <span>40+</span>
+                  <span>40%</span>
                   <p>Certified Professionals</p>
                 </div>
                 <div className="company-team-stat">
                   <div className="company-team-icon">
                     <Trophy/>
                   </div>
-                  <span>100+</span>
+                  <span>20+</span>
                   <p>Successful Projects</p>
                 </div>
               </div>

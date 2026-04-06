@@ -239,7 +239,7 @@ export function DataSolutions() {
   return (
     <div className="ds-page">
       {/* --- Hero Section --- */}
-      <section ref={heroRef} className="ds-hero">
+      <section id="analytics" ref={heroRef} className="ds-hero">
         <div className="ds-hero-bg">
           <div className="ds-data-streams">
              {/* Simulated data streams using CSS gradients */}
@@ -329,7 +329,7 @@ export function DataSolutions() {
       </section>
 
       {/* --- Data Analytics Section --- */}
-      <section id="analytics" className="ds-service ds-service-analytics">
+      <section  className="ds-service ds-service-analytics">
         <div className="ds-container">
           <div className="ds-section-header">
             <div className="ds-service-badge ds-service-badge-analytics">
@@ -450,8 +450,8 @@ export function DataSolutions() {
               Let's architect a data solution that scales with your ambition.
             </p>
             <div className="ds-cta-buttons">
-              <a href="#contact" className="ds-btn ds-btn-primary ds-btn-lg">
-                Schedule a Data Audit
+              <a href="/contact" className="ds-btn ds-btn-primary ds-btn-lg">
+                Schedule a Consultation
                 <ArrowRight className="ds-btn-icon" />
               </a>
               <a href="tel:+918123660270" className="ds-btn ds-btn-outline">

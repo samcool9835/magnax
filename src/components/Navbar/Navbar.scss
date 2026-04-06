@@ -545,3 +545,42 @@ $shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
     background: darken($primary-color, 10%);
   }
 }
+
+.navbar-mobile-submenu-link,
+.navbar-mobile-submenu button,
+.navbar-mobile-submenu li button {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0.75rem 1rem !important;
+  margin: 0 !important;
+  width: 100% !important;
+  text-align: left !important;
+  box-shadow: none !important;
+  font-size: 15px !important;
+  color: #374151 !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-mobile-submenu-link:hover,
+.navbar-mobile-submenu button:hover {
+  color: #2b4dff !important;
+  background: #f8f9fa !important;   
+}
+
+.navbar-mobile-submenu-section {
+  margin-bottom: 1.25rem;
+}
+
+.navbar-mobile-submenu ul,
+.navbar-mobile-submenu li {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar-mobile-submenu {
+  background: transparent !important;
+  border: none !important;
+}

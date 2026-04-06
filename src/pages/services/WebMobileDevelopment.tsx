@@ -326,7 +326,6 @@ export function WebMobileDevelopment() {
                 </div>
                 <h3 className="wm-feature-title">{feature.title}</h3>
                 <p className="wm-feature-description">{feature.description}</p>
-                <p className="wm-feature-description2">{feature.description2}</p>
                 <div className="wm-feature-line" />
               </div>
             )) || <div>No web features available</div>}
@@ -378,7 +377,6 @@ export function WebMobileDevelopment() {
                 </div>
                 <h3 className="wm-feature-title">{feature.title}</h3>
                 <p className="wm-feature-description">{feature.description}</p>
-                <p className="wm-feature-description2">{feature.description2}</p>
                 <div className="wm-feature-line" />
               </div>
             )) || <div>No mobile features available</div>}
@@ -423,8 +421,8 @@ export function WebMobileDevelopment() {
               we'll bring your vision to life with cutting-edge technology.
             </p>
             <div className="wm-cta-buttons">
-              <a href="#contact" className="wm-btn wm-btn-primary wm-btn-lg">
-                Get Free Consultation
+              <a href="/contact" className="wm-btn wm-btn-primary wm-btn-lg">
+                    Schedule a  Consultation
                 <ArrowRight className="wm-btn-icon" />
               </a>
               <a href="tel:+918123660270" className="wm-btn wm-btn-outline">

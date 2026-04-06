@@ -230,7 +230,7 @@ export function Approach() {
 
               <h1 className="approach-hero-title">
                 Strategic<br />
-                <span className="approach-gradient-text">Approach</span>
+               Approach
               </h1>
 
               <p className="approach-hero-description">

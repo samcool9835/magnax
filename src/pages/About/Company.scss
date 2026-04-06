@@ -110,9 +110,9 @@ $black: #000000;
 // Hero Section - Unique Timeline Design
 .company-hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 70vh;
   @include flex-center;
-  padding: 120px 0 80px;
+  padding: 40px;
   @include gradient-bg;
   overflow: hidden;
 }

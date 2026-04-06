@@ -39,23 +39,20 @@
   ],
   "testimonials": [
     {
-      "quote": "DREMS transformed how we manage our school. Parents are more engaged than ever.",
-      "author": "Dr. Sarah Johnson",
-      "role": "Principal, Lincoln High School",
-      "image": "/images/testimonials/sarah.jpg"
+      "role": "CTO, Golden manpower International Consultants",
+      "image": "/images/clients/gmic.jpeg",
+      "quote": "We would like to express our satisfaction on the cooperation regarding the development of our web application. Da Riff and the development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. We would like to recommend Da Riff and the development team. We look forward to working with them in future projects."
     },
     {
-      "quote": "The attendance tracking alone saved us 20 hours of manual work per week.",
-      "author": "Michael Chen",
-      "role": "Admin Director, Global Academy",
-      "image": "/images/testimonials/michael.jpg"
+      "role": "Founder, GlobalEdge Services",
+      "image": "/images/clients/globaledge.jpg",
+      "quote": "We would like to express our satisfaction on the cooperation regarding the development of our web application. Da Riff and the development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. We would like to recommend Da Riff and the development team. We look forward to working with them in future projects."
     },
-    {
-      "quote": "Finally, a system that actually works for teachers, not against them.",
-      "author": "Emma Rodriguez",
-      "role": "Head Teacher, Westside Elementary",
-      "image": "/images/testimonials/emma.jpg"
-    }
+   {
+      "role": "Founder, KBombay",
+      "image": "/images/clients/kbombay.png",
+      "quote": "We would like to express our satisfaction on the cooperation regarding the development of our web application. Da Riff and the development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. We would like to recommend Da Riff and the development team. We look forward to working with them in future projects."
+   }
   ],
   "heroStats": [
     { "value": "500+", "label": "Institutions" },

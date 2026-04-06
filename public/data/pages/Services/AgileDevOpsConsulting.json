@@ -20,26 +20,22 @@
     {
       "icon": "Kanban",
       "title": "Agile Transformation",
-      "description": "Transform your organization with proven agile methodologies tailored to your culture and goals.",
-      "description2": "Our experienced coaches work closely with your teams to implement frameworks like Scrum, Kanban, and SAFe, fostering a culture of continuous improvement and high performance."
+      "description": "Transform your organization with proven agile methodologies tailored to your culture and goals. Our experienced coaches work closely with your teams to implement frameworks like Scrum, Kanban, and SAFe, fostering a culture of continuous improvement and high performance."
     },
     {
       "icon": "Users",
       "title": "Team Coaching",
-      "description": "Hands-on coaching to build high-performing, self-organizing teams that deliver consistently.",
-      "description2": "We provide personalized coaching to help teams develop the skills and mindset needed for sustained agile success."
+      "description": "Hands-on coaching to build high-performing, self-organizing teams that deliver consistently. We provide personalized coaching to help teams develop the skills and mindset needed for sustained agile success."
     },
     {
       "icon": "Target",
       "title": "Product Ownership",
-      "description": "Develop effective product owners who maximize value and align stakeholders with delivery teams.",
-      "description2": "Our product ownership coaching helps teams understand customer needs, prioritize work effectively, and deliver value consistently."
+      "description": "Develop effective product owners who maximize value and align stakeholders with delivery teams. Our product ownership coaching helps teams understand customer needs, prioritize work effectively, and deliver value consistently."
     },
     {
       "icon": "Clock",
       "title": "Flow Optimization",
-      "description": "Eliminate bottlenecks and reduce cycle time with value stream mapping and lean practices.",
-      "description2": "We analyze your delivery process to identify inefficiencies and implement lean practices that optimize flow and increase throughput."
+      "description": "Eliminate bottlenecks and reduce cycle time with value stream mapping and lean practices. We analyze your delivery process to identify inefficiencies and implement lean practices that optimize flow and increase throughput."
     }
   ],
   "devopsTools": [
@@ -56,26 +52,22 @@
     {
       "icon": "Container",
       "title": "CI/CD Pipelines",
-      "description": "Automated build, test, and deployment pipelines that enable multiple releases per day.",
-      "description2": "We design and implement CI/CD pipelines that integrate with your existing tools, enabling faster and more reliable software delivery."
+      "description": "Automated build, test, and deployment pipelines that enable multiple releases per day. We design and implement CI/CD pipelines that integrate with your existing tools, enabling faster and more reliable software delivery."
     },
     {
       "icon": "Server",
       "title": "Infrastructure as Code",
-      "description": "Provision and manage infrastructure through code for consistency and scalability.",
-      "description2": "Our infrastructure as code solutions ensure consistent environments across development, testing, and production, reducing deployment errors and improving scalability."
+      "description": "Provision and manage infrastructure through code for consistency and scalability. Our infrastructure as code solutions ensure consistent environments across development, testing, and production, reducing deployment errors and improving scalability."
     },
     {
       "icon": "Monitor",
       "title": "Observability",
-      "description": "Comprehensive monitoring, logging, and alerting for proactive issue detection.",
-      "description2": "We implement observability solutions that provide deep insights into your applications and infrastructure, enabling proactive issue detection and faster resolution."
+      "description": "Comprehensive monitoring, logging, and alerting for proactive issue detection. We implement observability solutions that provide deep insights into your applications and infrastructure, enabling proactive issue detection and faster resolution."
     },
     {
       "icon": "Shield",
       "title": "DevSecOps",
-      "description": "Integrate security into every stage of the pipeline with automated compliance checks.",
-      "description2": "Our DevSecOps approach ensures that security is integrated into your development process, with automated checks and compliance monitoring to protect your applications and data."
+      "description": "Integrate security into every stage of the pipeline with automated compliance checks. Our DevSecOps approach ensures that security is integrated into your development process, with automated checks and compliance monitoring to protect your applications and data."
     }
   ],
   "testimonials": [

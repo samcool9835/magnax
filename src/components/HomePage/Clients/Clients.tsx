@@ -1,24 +1,12 @@
 // src/components/Clients/Clients.tsx
 
 import { useEffect, useRef, useState, useCallback } from 'react';
+import {ChevronLeft, ChevronRight} from 'lucide-react';
 import { ScrollReveal } from '../../animations/scrollReveal';
 import { getClientsData } from '../../../service/api';
 import type { ClientsData } from '../../../types';
 
 import './Clients.scss';
-
-// Chevron Icons
-const ChevronLeft = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-  </svg>
-);
-
-const ChevronRight = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-  </svg>
-);
 
 export function Clients() {
   const [data, setData] = useState<ClientsData | null>(null);

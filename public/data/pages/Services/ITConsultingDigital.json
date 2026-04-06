@@ -1,10 +1,10 @@
 {
   "heroDescription": "Navigate the complexities of modern technology with expert guidance. We help organizations reimagine their future through strategic IT consulting and comprehensive digital transformation programs.",
   "stats": [
-    { "value": "500+", "label": "Projects Delivered" },
+    { "value": "20+", "label": "Projects Delivered" },
     { "value": "98%", "label": "Client Satisfaction" },
     { "value": "40%", "label": "Avg Cost Reduction" },
-    { "value": "10+", "label": "Years Experience" }
+    { "value": "4+", "label": "Years Experience" }
   ],
   "consultingAreas": [
     { "name": "IT Strategy", "category": "Planning" },
@@ -20,26 +20,24 @@
     {
       "icon": "Lightbulb",
       "title": "Strategic IT Planning",
-      "description": "Align technology investments with business goals through comprehensive roadmaps and feasibility studies.",
+      "description": "Align technology investments with business goals through comprehensive roadmaps and feasibility studies. Identify opportunities for innovation and competitive advantage in your industry.",
       "description2": "Identify opportunities for innovation and competitive advantage in your industry."
     },
     {
       "icon": "Target",
       "title": "Technology Assessment",
-      "description": "Evaluate your current tech stack, identify gaps, and recommend optimal solutions for growth.",
+      "description": "Evaluate your current tech stack, identify gaps, and recommend optimal solutions for growth. Ensure your technology infrastructure is future-ready and scalable.",
       "description2": "Ensure your technology infrastructure is future-ready and scalable."
     },
     {
       "icon": "Shield",
       "title": "Risk & Compliance",
-      "description": "Navigate complex regulatory landscapes with robust cybersecurity and compliance frameworks.",
-      "description2": "Ensure your organization is protected against evolving threats and regulatory requirements."
+      "description": "Navigate complex regulatory landscapes with robust cybersecurity and compliance frameworks. Ensure your organization is protected against evolving threats and regulatory requirements."
     },
     {
       "icon": "BarChart3",
       "title": "Performance Optimization",
-      "description": "Streamline operations and reduce costs through data-driven process improvements.",
-      "description2": "Leverage analytics to identify inefficiencies and implement best practices for operational excellence."
+      "description": "Streamline operations and reduce costs through data-driven process improvements. Leverage analytics to identify inefficiencies and implement best practices for operational excellence."
     }
   ],
   "transformationPillars": [
@@ -56,26 +54,22 @@
     {
       "icon": "RefreshCw",
       "title": "End-to-End Transformation",
-      "description": "Reimagine your entire business model with digital-first strategies and modern architectures.",
-      "description2": "Transform your organization from the ground up with a comprehensive digital strategy."
+      "description": "Reimagine your entire business model with digital-first strategies and modern architectures. Transform your organization from the ground up with a comprehensive digital strategy."
     },
     {
       "icon": "Users",
       "title": "Change Management",
-      "description": "Guide your teams through digital adoption with training, support, and cultural transformation.",
-      "description2": "Foster a culture of innovation and agility to ensure successful transformation outcomes."
+      "description": "Guide your teams through digital adoption with training, support, and cultural transformation. Foster a culture of innovation and agility to ensure successful transformation outcomes."
     },
     {
       "icon": "Cpu",
       "title": "Legacy Modernization",
-      "description": "Migrate from outdated systems to cloud-native platforms without disrupting operations.",
-      "description2": "Modernize your technology stack to improve performance, scalability, and security."
+      "description": "Migrate from outdated systems to cloud-native platforms without disrupting operations. Modernize your technology stack to improve performance, scalability, and security."
     },
     {
       "icon": "Globe",
       "title": "Ecosystem Integration",
-      "description": "Connect with partners, suppliers, and customers through seamless digital platforms.",
-      "description2": "Build a connected ecosystem that drives collaboration and growth across your value chain."
+      "description": "Connect with partners, suppliers, and customers through seamless digital platforms. Build a connected ecosystem that drives collaboration and growth across your value chain."
     }
   ],
   "processSteps": [

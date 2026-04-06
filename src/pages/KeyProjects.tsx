@@ -242,7 +242,7 @@ export function KeyProjects() {
 
             <h1 className="kp-hero-title">
               Key Projects &<br />
-              <span className="kp-gradient-text">Case Studies</span>
+              Case Studies
             </h1>
 
             <p className="kp-hero-description">
@@ -257,7 +257,7 @@ export function KeyProjects() {
                 View Projects
                 <ArrowRight className="kp-btn-icon" />
               </a>
-              <a href="#contact" className="kp-btn kp-btn-secondary">
+              <a href="/contact" className="kp-btn kp-btn-secondary">
                 Start Your Project
               </a>
             </div>
@@ -384,7 +384,7 @@ export function KeyProjects() {
                 "Let's discuss how we can help transform your ideas into powerful digital solutions."}
             </p>
             <div className="kp-cta-buttons">
-              <a href="#contact" className="kp-btn kp-btn-primary kp-btn-lg">
+              <a href="/contact" className="kp-btn kp-btn-primary kp-btn-lg">
                 Start a Project
                 <ArrowRight className="kp-btn-icon" />
               </a>

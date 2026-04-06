@@ -19,7 +19,7 @@
       "category": "Cloud Platform",
       "description": "Data analytics and machine learning leader with Kubernetes-native infrastructure.",
       "features": ["Compute Engine", "GKE", "BigQuery", "Cloud Functions"],
-      "icon": "/images/tech/gcp.svg"
+      "icon": "/images/tech/googlecloud.svg"
     },
     {
       "name": "Docker",
@@ -99,10 +99,10 @@
     }
   ],
   "stats": [
-    { "value": "500+", "label": "Cloud Migrations" },
-    { "value": "10K+", "label": "Containers Managed" },
+    { "value": "50+", "label": "Cloud Migrations" },
+    { "value": "1K+", "label": "Containers Managed" },
     { "value": "99.99%", "label": "Uptime SLA" },
-    { "value": "5+", "label": "Years Experience" }
+    { "value": "4+", "label": "Years Experience" }
   ],
   "floatingIcons": [
     { "iconName": "Cloud", "delay": "0s", "duration": "6s", "pos": { "top": "10%", "left": "5%" } },

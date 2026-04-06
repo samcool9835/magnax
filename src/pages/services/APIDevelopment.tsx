@@ -291,7 +291,6 @@ export function APIDevelopment() {
                 </div>
                 <h3 className="api-feature-title">{feature.title}</h3>
                 <p className="api-feature-description">{feature.description}</p>
-                <p className="api-feature-description2">{feature.description2}</p>
                 <div className="api-feature-line" />
               </div>
             )) || <div>No API features available</div>}
@@ -336,8 +335,8 @@ export function APIDevelopment() {
                 "Let's build APIs that power your digital transformation and unlock new possibilities."}
             </p>
             <div className="api-cta-buttons">
-              <a href="#contact" className="api-btn api-btn-primary api-btn-lg">
-                Start Your API Project
+              <a href="/contact" className="api-btn api-btn-primary api-btn-lg">
+                Schedule a  Consultation
                 <ArrowRight className="api-btn-icon" />
               </a>
               <a href="tel:+918123660270" className="api-btn api-btn-outline">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ChevronDown, ChevronUp, Search, X, Menu } from 'lucide-react';
+import { ChevronDown, ChevronUp, X, Menu } from 'lucide-react';
 import type { NavItem } from '../../types';
 import './Navbar.scss';
 
@@ -437,9 +437,9 @@ const Navbar: React.FC = () => {
           </ul>
           
           <div className="navbar-mobile-footer">
-            <button className="navbar-mobile-search">
+            {/* <button className="navbar-mobile-search">
               <Search size={20} /> Search
-            </button>
+            </button> */}
             <Link to="/contact" className="navbar-mobile-contact" onClick={() => setIsMobileMenuOpen(false)}>
               Get A Quote
             </Link>

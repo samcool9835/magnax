@@ -99,10 +99,10 @@
     }
   ],
   "stats": [
-    { "value": "100TB+", "label": "Data Managed" },
+    { "value": "1TB+", "label": "Data Managed" },
     { "value": "1M+", "label": "Queries/Sec" },
     { "value": "99.999%", "label": "Availability" },
-    { "value": "5+", "label": "Years Experience" }
+    { "value": "4+", "label": "Years Experience" }
   ],
   "floatingIcons": [
     { "iconName": "Database", "delay": "0s", "duration": "6s", "pos": { "top": "10%", "left": "5%" } },

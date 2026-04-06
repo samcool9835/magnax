@@ -272,7 +272,7 @@ export function MobileTechnologies() {
             </p>
 
             <div className="mo-hero-cta">
-              <a href="#contact" className="mo-btn mo-btn-primary">
+              <a href="/contact" className="mo-btn mo-btn-primary">
                 Build Your App
                 <ArrowRight className="mo-btn-icon" />
               </a>
@@ -467,7 +467,7 @@ export function MobileTechnologies() {
               we'll guide you through every step of mobile development
             </p>
             <div className="mo-cta-buttons">
-              <a href="#contact" className="mo-btn mo-btn-primary mo-btn-lg">
+              <a href="/contact" className="mo-btn mo-btn-primary mo-btn-lg">
                 Get Free Consultation
                 <ArrowRight className="mo-btn-icon" />
               </a>
