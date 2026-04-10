@@ -1173,6 +1173,14 @@ $black: #000000;
   margin-right: auto;
   z-index: 1;
 }
+.approach-cta-buttons {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
 
 // Responsive
 @media (max-width: 768px) {

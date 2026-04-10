@@ -22,7 +22,7 @@
       "title": "Managed Services",
       "description": "24/7 monitoring and support for your systems to ensure maximum uptime.",
       "color": "from-cyan-500 to-cyan-600",
-      "path": "/services/managed-services"
+      "path": "/services/agile-devops-consulting"
     },
     {
       "icon": "Cloud",
@@ -43,7 +43,7 @@
       "title": "Cybersecurity",
       "description": "Enterprise-grade security solutions and consulting to protect your digital assets.",
       "color": "from-green-500 to-green-600",
-      "path": "/services/cybersecurity"
+      "path": "/services/machine-learning-ai"
     }
   ]
 }

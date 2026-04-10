@@ -194,7 +194,7 @@ export function Approach() {
   return (
     <div className="approach-page">
       {/* Hero - Unique Circular Navigation Design */}
-      <section ref={heroRef} className="approach-hero">
+      <section id="hero" ref={heroRef} className="approach-hero">
         <div className="approach-hero-bg">
           <div className="approach-hero-grid" />
           <div className="approach-hero-orb approach-orb-1" />

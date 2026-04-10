@@ -17,7 +17,7 @@ const NAV_ITEMS: NavItem[] = [
       {
         title: "Company",
         items: [
-          { label: "About Company", path: "/company" },
+          { label: "About Company", path: "/company#about" },
           { label: "Mission", path: "/company#mission" },
           { label: "Leadership", path: "/company#leadership" },
           { label: "Our Team", path: "/company#our-team" },
@@ -26,7 +26,7 @@ const NAV_ITEMS: NavItem[] = [
       {
         title: "Approach",
         items: [
-          { label: "Where to Start", path: "/approach" },
+          { label: "Where to Start", path: "/approach#hero" },
           { label: "Pricing Models", path: "/approach#pricing-models" },
           { label: "Project Management Office", path: "/approach#project-management" },
           { label: "Architecture CoE", path: "/approach#architecture" },

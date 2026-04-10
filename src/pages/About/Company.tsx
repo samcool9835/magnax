@@ -23,9 +23,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const leaders = [
-  { name: 'John Smith', role: 'CEO & Founder', image: '/images/team/john.jpg' },
-  { name: 'Sarah Johnson', role: 'CTO', image: '/images/team/sarah.jpg' },
-  { name: 'Michael Chen', role: 'COO', image: '/images/team/michael.jpg' },
+  { name: 'Adnan Ali', role: 'Director', image: '/images/team/AdnanAli.jpeg' },
+  { name: 'Anees Iqbal', role: 'Director', image: '/images/team/AnessIqbal.jpeg' },
+  { name: 'Syed Inayatullah', role: 'Chairman', image: '/images/team/Chairman.jpeg' },
   { name: 'Emily Davis', role: 'VP Engineering', image: '/images/team/emily.jpg' },
 ];
 const floatingIcons = [
@@ -127,7 +127,7 @@ export function Company() {
   return (
     <div className="company-page">
       {/* Hero - Unique Timeline/Story Design */}
-      <section ref={heroRef} className="company-hero">
+      <section id="about" ref={heroRef} className="company-hero">
         <div className="company-hero-bg">
           <div className="company-hero-grid" />
           <div className="company-hero-orb company-orb-1" />
@@ -578,16 +578,23 @@ export function Company() {
       </main>
 
       {/* CTA */}
-      <section className="company-cta">
-        <div className="company-container">
-          <div className="company-cta-box">
-            <div className="company-cta-glow" />
-            <h2 className="company-cta-title">Ready to Partner With Us?</h2>
-            <p className="company-cta-description">Get in touch to discuss how we can help transform your business.</p>
-            <a href="/contact" className="company-btn company-btn-primary company-btn-lg">
-              Contact Us
-              <ArrowRight className="company-btn-icon" />
-            </a>
+      <section className="icd-cta">
+        <div className="icd-container">
+          <div className="icd-cta-box">
+            <div className="icd-cta-glow" />
+            <h2 className="icd-cta-title">Ready to Transform Your Business?</h2>
+            <p className="icd-cta-description">
+                Get in touch to discuss how Magnax can help you achieve your technology goals and drive innovation in your industry.
+            </p>
+            <div className="icd-cta-buttons">
+              <a href="/contact" className="icd-btn icd-btn-primary icd-btn-lg">
+                Contact Us
+                <ArrowRight className="icd-btn-icon" />
+              </a>
+              <a href="tel:+918123660270" className="icd-btn icd-btn-outline">
+                Call: +91 8123660270
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -231,6 +231,7 @@ $black: #000000;
     color: $white;
     box-shadow: 0 4px 20px rgba($primary, 0.4);
     &:hover {
+      color:white;
       transform: translateY(-2px);
       box-shadow: 0 8px 30px rgba($primary, 0.6);
       .db-btn-icon { transform: translateX(4px); }

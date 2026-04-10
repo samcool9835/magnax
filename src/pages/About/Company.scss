@@ -926,40 +926,46 @@ $black: #000000;
 
 .company-leader-image {
   position: relative;
-  height: 280px;
+  height: 320px;
   overflow: hidden;
+  border-radius: 16px 16px 0 0;
 
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.6s ease;
+    object-position: top center; 
+    display: block;
   }
 }
 
 .company-leader-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba($secondary, 0.8) 100%);
+  background: linear-gradient(
+    to bottom,
+    transparent 60%,
+    rgba(10, 22, 94, 0.85) 100%
+  );
 }
-
 .company-leader-info {
-  position: relative;
-  padding: 24px;
-  z-index: 2;
-  margin-top: -60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
 
   h3 {
-    font-size: 20px;
-    font-weight: 800;
-    color: $white;
-    margin-bottom: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
   }
 
   p {
-    color: rgba($white, 0.8);
-    font-size: 14px;
-    margin: 0;
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    margin: 4px 0 0;
   }
 }
 
@@ -1277,7 +1283,7 @@ $black: #000000;
 
 // CTA Section
 .company-cta {
-  padding: 120px 0;
+  padding: 60px 0;
   background: $white;
   position: relative;
 }
